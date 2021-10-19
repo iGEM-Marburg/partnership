@@ -1,0 +1,92 @@
+LOCUS       pSB1C00                 2053 bp    DNA     circular UNK 29-JUL-2021
+DEFINITION  Universal Acceptor for MoClo / Loop.
+ACCESSION   <unknown
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     terminator      14..70
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="his operon terminator"
+     rep_origin      complement(266..853)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /label="ori"
+     terminator      1037..1130
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="lambda t0 terminator"
+     CDS             complement(1152..1810)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="CDS"
+                     /label="CmR"
+     promoter        complement(1812..1908)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="96.07843137254902"
+                     /fragment="False"
+                     /other="promoter"
+                     /label="cat promoter"
+     terminator      1995..2037
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="97.778"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="bacterial terminator"
+ORIGIN      
+        1 tgagaccctg cagtccggca aaaaagggca aggtgtcacc accctgccct ttttctttaa
+       61 aaccgaaaag attacttcgc gttatgcagg cttcctcgct cactgactcg ctgcgctcgg
+      121 tcgttcggct gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg ttatccacag
+      181 aatcagggga taacgcagga aagaacatgt gagcaaaagg ccagcaaaag gccaggaacc
+      241 gtaaaaaggc cgcgttgctg gcgtttttcc acaggctccg cccccctgac gagcatcaca
+      301 aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga taccaggcgt
+      361 ttccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt accggatacc
+      421 tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca tagctcacgc tgtaggtatc
+      481 tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt gcacgaaccc cccgttcagc
+      541 ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc caacccggta agacacgact
+      601 tatcgccact ggcagcagcc actggtaaca ggattagcag agcgaggtat gtaggcggtg
+      661 ctacagagtt cttgaagtgg tggcctaact acggctacac tagaagaaca gtatttggta
+      721 tctgcgctct gctgaagcca gttaccttcg gaaaaagagt tggtagctct tgatccggca
+      781 aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa gcagcagatt acgcgcagaa
+      841 aaaaaggatc tcaagaagat cctttgatct tttctacggg gtctgacgct cagtggaacg
+      901 aaaactcacg ttaagggatt ttggtcatga gattatcaaa aaggatcttc acctagatcc
+      961 ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa acttggtctg
+     1021 acagctcgag gcttggattc tcaccaataa aaaacgcccg gcggcaaccg agcgttctga
+     1081 acaaatccag atggagttct gaggtcatta ctggatctat caacaggagt ccaagcgagc
+     1141 tcgatatcaa attacgcccc gccctgccac tcatcgcagt actgttgtaa ttcattaagc
+     1201 attctgccga catggaagcc atcacaaacg gcatgatgaa cctgaatcgc cagcggcatc
+     1261 agcaccttgt cgccttgcgt ataatatttg cccatggtga aaacgggggc gaagaagttg
+     1321 tccatattgg ccacgtttaa atcaaaactg gtgaaactca cccagggatt ggctgagacg
+     1381 aaaaacatat tctcaataaa ccctttaggg aaataggcca ggttttcacc gtaacacgcc
+     1441 acatcttgcg aatatatgtg tagaaactgc cggaaatcgt cgtggtattc actccagagc
+     1501 gatgaaaacg tttcagtttg ctcatggaaa acggtgtaac aagggtgaac actatcccat
+     1561 atcaccagct caccgtcttt cattgccata cgaaattccg gatgagcatt catcaggcgg
+     1621 gcaagaatgt gaataaaggc cggataaaac ttgtgcttat ttttctttac ggtctttaaa
+     1681 aaggccgtaa tatccagctg aacggtctgg ttataggtac attgagcaac tgactgaaat
+     1741 gcctcaaaat gttctttacg atgccattgg gatatatcaa cggtggtata tccagtgatt
+     1801 tttttctcca ttttagcttc cttagctcct gaaaatctcg ataactcaaa aaatacgccc
+     1861 ggtagtgatc ttatttcatt atggtgaaag ttggaacctc ttacgtgccc gatcaactcg
+     1921 agtgccacct gacgtctaag aaaccattat tatcatgaca ttaacctata aaaataggcg
+     1981 tatcacgagg cagaatttca gataaaaaaa atccttagct ttcgctaagg atgatttctg
+     2041 gaattcggtc tcg
+//

@@ -1,0 +1,121 @@
+LOCUS       BBa_J23006              2356 bp    DNA     circular UNK 30-JUL-2021
+DEFINITION  Part-making plasmid with Ptet-XbaI-[biobrick]-SpeI-PstI.
+ACCESSION   <unknown
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..20
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="misc feature"
+                     /label="BioBrick suffix"
+     terminator      22..80
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="98.333"
+                     /match_length="101.69491525423729"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="his operon terminator"
+     rep_origin      complement(276..863)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /label="ori"
+     CDS             complement(1035..1894)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="CDS"
+                     /label="AmpR"
+     promoter        complement(1896..1999)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="promoter"
+                     /label="AmpR promoter"
+     terminator      2090..2132
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="97.778"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="bacterial terminator"
+     terminator      2166..2236
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="rrnB T1 terminator"
+     terminator      complement(2253..2279)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="T7Te terminator"
+     promoter        2295..2347
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="73.97260273972603"
+                     /fragment="True"
+                     /other="promoter"
+                     /label="PLtetO-1 promoter"
+ORIGIN      
+        1 tactagtagc ggccgctgca gtccggcaaa aaaacgggca aggtgtcacc accctgccct
+       61 ttttctttaa aaccgaaaag attacttcgc gttatgcagg cttcctcgct cactgactcg
+      121 ctgcgctcgg tcgttcggct gcggcgagcg gtatcagctc actcaaaggc ggtaatacgg
+      181 ttatccacag aatcagggga taacgcagga aagaacatgt gagcaaaagg ccagcaaaag
+      241 gccaggaacc gtaaaaaggc cgcgttgctg gcgtttttcc ataggctccg cccccctgac
+      301 gagcatcaca aaaatcgacg ctcaagtcag aggtggcgaa acccgacagg actataaaga
+      361 taccaggcgt ttccccctgg aagctccctc gtgcgctctc ctgttccgac cctgccgctt
+      421 accggatacc tgtccgcctt tctcccttcg ggaagcgtgg cgctttctca tagctcacgc
+      481 tgtaggtatc tcagttcggt gtaggtcgtt cgctccaagc tgggctgtgt gcacgaaccc
+      541 cccgttcagc ccgaccgctg cgccttatcc ggtaactatc gtcttgagtc caacccggta
+      601 agacacgact tatcgccact ggcagcagcc actggtaaca ggattagcag agcgaggtat
+      661 gtaggcggtg ctacagagtt cttgaagtgg tggcctaact acggctacac tagaaggaca
+      721 gtatttggta tctgcgctct gctgaagcca gttaccttcg gaaaaagagt tggtagctct
+      781 tgatccggca aacaaaccac cgctggtagc ggtggttttt ttgtttgcaa gcagcagatt
+      841 acgcgcagaa aaaaaggatc tcaagaagat cctttgatct tttctacggg gtctgacgct
+      901 cagtggaacg aaaactcacg ttaagggatt ttggtcatga gattatcaaa aaggatcttc
+      961 acctagatcc ttttaaatta aaaatgaagt tttaaatcaa tctaaagtat atatgagtaa
+     1021 acttggtctg acagttacca atgcttaatc agtgaggcac ctatctcagc gatctgtcta
+     1081 tttcgttcat ccatagttgc ctgactcccc gtcgtgtaga taactacgat acgggagggc
+     1141 ttaccatctg gccccagtgc tgcaatgata ccgcgagacc cacgctcacc ggctccagat
+     1201 ttatcagcaa taaaccagcc agccggaagg gccgagcgca gaagtggtcc tgcaacttta
+     1261 tccgcctcca tccagtctat taattgttgc cgggaagcta gagtaagtag ttcgccagtt
+     1321 aatagtttgc gcaacgttgt tgccattgct acaggcatcg tggtgtcacg ctcgtcgttt
+     1381 ggtatggctt cattcagctc cggttcccaa cgatcaaggc gagttacatg atcccccatg
+     1441 ttgtgcaaaa aagcggttag ctccttcggt cctccgatcg ttgtcagaag taagttggcc
+     1501 gcagtgttat cactcatggt tatggcagca ctgcataatt ctcttactgt catgccatcc
+     1561 gtaagatgct tttctgtgac tggtgagtac tcaaccaagt cattctgaga atagtgtatg
+     1621 cggcgaccga gttgctcttg cccggcgtca atacgggata ataccgcgcc acatagcaga
+     1681 actttaaaag tgctcatcat tggaaaacgt tcttcggggc gaaaactctc aaggatctta
+     1741 ccgctgttga gatccagttc gatgtaaccc actcgtgcac ccaactgatc ttcagcatct
+     1801 tttactttca ccagcgtttc tgggtgagca aaaacaggaa ggcaaaatgc cgcaaaaaag
+     1861 ggaataaggg cgacacggaa atgttgaata ctcatactct tcctttttca atattattga
+     1921 agcatttatc agggttattg tctcatgagc ggatacatat ttgaatgtat ttagaaaaat
+     1981 aaacaaatag gggttccgcg cacatttccc cgaaaagtgc cacctgacgt ctaagaaacc
+     2041 attattatca tgacattaac ctataaaaat aggcgtatca cgaggcagaa tttcagataa
+     2101 aaaaaatcct tagctttcgc taaggatgat ttctggaatt cgcggccgca actagagcca
+     2161 ggcatcaaat aaaacgaaag gctcagtcga aagactgggc ctttcgtttt atctgttgtt
+     2221 tgtcggtgaa cgctctctac tagagtcaca ctggctcacc ttcgggtggg cctttctgcg
+     2281 tttatatact agagtcccta tcagtgatag agattgacat ccctatcagt gatagagata
+     2341 ctgagcactt ctagag
+//

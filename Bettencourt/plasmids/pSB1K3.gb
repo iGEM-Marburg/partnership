@@ -1,0 +1,94 @@
+LOCUS       pSB1K3                  2204 bp    DNA     circular UNK 29-JUL-2021
+DEFINITION  High copy BioBrick assembly plasmid.
+ACCESSION   <unknown
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..20
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="misc feature"
+                     /label="BioBrick suffix"
+     terminator      22..78
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="his operon terminator"
+     rep_origin      complement(274..861)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="rep_origin"
+                     /label="ori"
+     CDS             complement(1095..1909)
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="CDS"
+                     /label="KanR"
+     terminator      2137..2179
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="97.778"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="terminator"
+                     /label="bacterial terminator"
+     misc_feature    2183..2203
+                     /note="pLannotate"
+                     /database="addgene"
+                     /identity="100.0"
+                     /match_length="100.0"
+                     /fragment="False"
+                     /other="misc feature"
+                     /label="BioBrick prefix"
+ORIGIN      
+        1 tactagtagc ggccgctgca gtccggcaaa aaagggcaag gtgtcaccac cctgcccttt
+       61 ttctttaaaa ccgaaaagat tacttcgcgt tatgcaggct tcctcgctca ctgactcgct
+      121 gcgctcggtc gttcggctgc ggcgagcggt atcagctcac tcaaaggcgg taatacggtt
+      181 atccacagaa tcaggggata acgcaggaaa gaacatgtga gcaaaaggcc agcaaaaggc
+      241 caggaaccgt aaaaaggccg cgttgctggc gtttttccac aggctccgcc cccctgacga
+      301 gcatcacaaa aatcgacgct caagtcagag gtggcgaaac ccgacaggac tataaagata
+      361 ccaggcgttt ccccctggaa gctccctcgt gcgctctcct gttccgaccc tgccgcttac
+      421 cggatacctg tccgcctttc tcccttcggg aagcgtggcg ctttctcata gctcacgctg
+      481 taggtatctc agttcggtgt aggtcgttcg ctccaagctg ggctgtgtgc acgaaccccc
+      541 cgttcagccc gaccgctgcg ccttatccgg taactatcgt cttgagtcca acccggtaag
+      601 acacgactta tcgccactgg cagcagccac tggtaacagg attagcagag cgaggtatgt
+      661 aggcggtgct acagagttct tgaagtggtg gcctaactac ggctacacta gaagaacagt
+      721 atttggtatc tgcgctctgc tgaagccagt taccttcgga aaaagagttg gtagctcttg
+      781 atccggcaaa caaaccaccg ctggtagcgg tggttttttt gtttgcaagc agcagattac
+      841 gcgcagaaaa aaaggatctc aagaagatcc tttgatcttt tctacggggt ctgacgctca
+      901 gtggaacgaa aactcacgtt aagggatttt ggtcatgaga ttatcaaaaa ggatcttcac
+      961 ctagatcctt ttaaattaaa aatgaagttt taaatcaatc taaagtatat atgagtaaac
+     1021 ttggtctgac agctcgagtc ccgtcaagtc agcgtaatgc tctgccagtg ttacaaccaa
+     1081 ttaaccaatt ctgattagaa aaactcatcg agcatcaaat gaaactgcaa tttattcata
+     1141 tcaggattat caataccata tttttgaaaa agccgtttct gtaatgaagg agaaaactca
+     1201 ccgaggcagt tccataggat ggcaagatcc tggtatcggt ctgcgattcc gactcgtcca
+     1261 acatcaatac aacctattaa tttcccctcg tcaaaaataa ggttatcaag tgagaaatca
+     1321 ccatgagtga cgactgaatc cggtgagaat ggcaaaagct tatgcatttc tttccagact
+     1381 tgttcaacag gccagccatt acgctcgtca tcaaaatcac tcgcatcaac caaaccgtta
+     1441 ttcattcgtg attgcgcctg agcgagacga aatacgcgat cgctgttaaa aggacaatta
+     1501 caaacaggaa tcgaatgcaa ccggcgcagg aacactgcca gcgcatcaac aatattttca
+     1561 cctgaatcag gatattcttc taatacctgg aatgctgttt tcccggggat cgcagtggtg
+     1621 agtaaccatg catcatcagg agtacggata aaatgcttga tggtcggaag aggcataaat
+     1681 tccgtcagcc agtttagtct gaccatctca tctgtaacat cattggcaac gctacctttg
+     1741 ccatgtttca gaaacaactc tggcgcatcg ggcttcccat acaatcgata gattgtcgca
+     1801 cctgattgcc cgacattatc gcgagcccat ttatacccat ataaatcagc atccatgttg
+     1861 gaatttaatc gcggcctgga gcaagacgtt tcccgttgaa tatggctcat aacacccctt
+     1921 gtattactgt ttatgtaagc agacagtttt attgttcatg atgatatatt tttatcttgt
+     1981 gcaatgtaac atcagagatt ttgagacaca acgtggcttt gttgaataaa tcgaactttt
+     2041 gctgagttga aggatcagct cgagtgccac ctgacgtcta agaaaccatt attatcatga
+     2101 cattaaccta taaaaatagg cgtatcacga ggcagaattt cagataaaaa aaatccttag
+     2161 ctttcgctaa ggatgatttc tggaattcgc ggccgcttct agag
+//
