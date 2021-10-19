@@ -1,0 +1,167 @@
+\documentclass{tstextbook}
+
+\usepackage{placeins}
+\usepackage[toc,page]{appendix}
+
+%used for subfigures
+\usepackage{subcaption}
+
+%used to wrap figures around text
+\usepackage{wrapfig}
+
+% FORMAL
+% for adjustwidth environment
+\usepackage[strict]{changepage}
+
+% for formal definitions
+\usepackage{framed}
+
+% environment derived from framed.sty: see leftbar environment definition
+\definecolor{formalshade}{rgb}{0.95,0.95,1}
+
+\newenvironment{formal}{%
+  \def\FrameCommand{%
+    \hspace{1pt}%
+    {\color{lightgray}\vrule width 2pt}%
+    {\color{formalshade}\vrule width 4pt}%
+    \colorbox{formalshade}%
+  }%
+  \MakeFramed{\advance\hsize-\width\FrameRestore}%
+  \noindent\hspace{-4.55pt}% disable indenting first paragraph
+  \begin{adjustwidth}{}{7pt}%
+  \vspace{2pt}\vspace{2pt}%
+}
+{%
+  \vspace{2pt}\end{adjustwidth}\endMakeFramed%
+}
+
+% include subsubsection into numbering
+\setcounter{secnumdepth}{3}
+
+% used for left/right figures
+\usepackage{floatrow}
+
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{bibliography.bib} 
+
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+
+\begin{document}
+
+\tsbook{iGEM Phototroph Handbook}
+       {The 2021 iGEM Phototrophic Teams}
+       {Cover design}
+       {2021}
+       {a}{a}{0.0}
+       {iGEM Phototrophs}
+       {a}
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Introduction}
+
+
+
+
+
+
+\input{chapters/01_Introduction}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Working with Phototrophs}
+
+
+
+\input{chapters/02_WorkingWithPhototrophs}
+
+
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Transformation}
+
+\input{chapters/03_Transformation}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Cloning}
+
+\input{chapters/04_Cloning}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Standardization}
+
+\input{chapters/05_Standardization}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Biosafety}
+
+\input{chapters/06_Biosafety}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Metabolic Engineering}
+
+\input{chapters/07_MetabolicEngineering}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Modelling}
+
+\input{chapters/08_Modelling}
+
+% =====================================================================
+% ============================== CHAPTER ==============================
+% =====================================================================
+
+\chapter{Past Projects}
+
+\epigraph{Unfortunately, no one can be told what the Matrix is. You have to see it for yourself.}{\textit{Morpheus to Lennart, iGEM Bielefeld-CeBiTec 2021}}
+
+
+
+\input{chapters/09_PastProjects}
+
+%---------------------------------------------------------------------------
+% Bibliography
+%---------------------------------------------------------------------------
+
+% \addcontentsline{toc}{chapter}{\textcolor{tssteelblue}{Literature}}
+% \printbibliography{}
+
+%---------------------------------------------------------------------------
+% Index
+%---------------------------------------------------------------------------
+
+\printindex
+
+% =====================================================================
+% ============================== APPENDIX =============================
+% =====================================================================
+
+\begin{appendices}
+\input{chapters/LAST_Appendix}
+
+\end{appendices}
+
+
+\end{document}
